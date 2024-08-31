@@ -15,7 +15,7 @@ export const Search = ({ apiPath }) => {
       <section className="py-7">
         <p className="text-3xl text-gray-700 dark:text-white">
           {movies.length === 0
-            ? `No result found for this '${queryTerm}'`
+            ? `No result found for '${queryTerm}'`
             : `Result for '${queryTerm}'`}
         </p>
       </section>
