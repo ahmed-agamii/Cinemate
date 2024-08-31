@@ -19,7 +19,7 @@ export const MovieDetail = () => {
       setMovie(json);
     }
     fetchMovie();
-  }, []);
+  }, [params.id]);
 
   return (
     <section className="flex justify-around flex-wrap py-5">
